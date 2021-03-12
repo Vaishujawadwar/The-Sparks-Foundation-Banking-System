@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.content{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://specials-images.forbesimg.com/imageserve/5ed792f6929b4000066a796f/960x0.jpg?fit=scale);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sign{
+    font-weight: bold;
+    color: black;
+}
+footer{
+    width: 100%;
+	left: 0px;
+	bottom: 0px;
+	position: absolute;
+	background-color: black;
+	color: white;
+	
+}
