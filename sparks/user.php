@@ -32,7 +32,7 @@ include 'includes/header.php';
 </div>
 <div class="form-group">
 <label for="balance" style="color: orange;">Balance</label>
-<input type="number" class="form-control" name="balance" placeholder="Balance" required>
+<input type="number" class="form-control" step="0.01" name="balance" placeholder="Balance" required>
 </div>
 <button class="btn btn-danger">Submit</button>
 </form>
