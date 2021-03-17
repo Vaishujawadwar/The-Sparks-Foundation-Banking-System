@@ -15,7 +15,7 @@ include 'includes/common.php';
 <title>Sparks Bank</title>
 </head>
 <body>
-<footer class="text-center">
+<footer class="text-center" style="background-color: #f2f2f2; color: black;">
 <p>&copy 2021. Made by <b>Vaishnavi Jawadwar</b> <br> For the Project of  <b>The Sparks Foundation</b></p>
 </footer>
 </body>
