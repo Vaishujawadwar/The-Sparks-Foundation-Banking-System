@@ -19,17 +19,17 @@ $select_query=mysqli_query($con,$select);
     <title>Sparks Bank</title>
 </head>
 
-<body>
+<body style="background-color : black; ">
 <?php
 include 'includes/header.php';
 ?>
 <div class="container">
 <div class="row">
-<h2 class="text-center" style="margin-top: 100px;">Transfer Money</h2>
+<h2 class="text-center" style="margin-top: 100px; color: #ff0000">Transfer Money</h2>
 <br>
 
 <div class="col-md-offset-2 col-md-8">
-<table class="table table-hover">
+<table class="table" style="background-color : #ffff00; ">
 <thead>
 <tr>
 <th>ID</th>
@@ -43,7 +43,7 @@ include 'includes/header.php';
 <?php 
 while($row=mysqli_fetch_assoc($select_query)){
 ?>
-<tr>
+<tr style="color : #ff3333" >
 <td ><?php echo $row['id'] ?></td>
 <td ><?php echo $row['name']?></td>
 <td ><?php echo $row['email']?></td>
