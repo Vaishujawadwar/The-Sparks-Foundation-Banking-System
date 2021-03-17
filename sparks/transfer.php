@@ -126,7 +126,7 @@ while($row = mysqli_fetch_assoc($select_query)) {
 <br>
 <br>
 <label style="color: #FFFF00; ">Amount:</label>
-<input type="number" class="form-control" name="amount" required>   
+<input type="number" class="form-control" step="0.01" name="amount" required>   
 <br><br>
 <div class="text-center" >
 <button class="btn btn-danger" name="submit" type="submit">Transfer</button>
