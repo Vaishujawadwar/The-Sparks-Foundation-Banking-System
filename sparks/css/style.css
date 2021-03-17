@@ -1,7 +1,4 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
+
 .content{
     height: 100vh;
     width: 100%;
@@ -18,7 +15,4 @@ footer{
 	left: 0px;
 	bottom: 0px;
 	position: absolute;
-	background-color: black;
-	color: white;
-	
 }
