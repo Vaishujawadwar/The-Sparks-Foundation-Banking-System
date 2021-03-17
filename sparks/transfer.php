@@ -78,18 +78,18 @@ $amount =0;
     <title>Sparks Bank</title>
 </head>
 
-<body>
+<body style="background-color: #007a33;">
 <?php
 include 'includes/header.php';
 ?>
 
 <div class="container">
-<h2 class="text-center" style="margin-top: 100px;">Transaction</h2>
+<h2 class="text-center" style="margin-top: 100px; color: #ccccad;">Transaction</h2>
 <br>
 <br>
 <div class="row">
 <form method="POST" name="send">
-<table class="table table-hover">
+<table class="table table-hover" style="color: #FFFF00; ">
 <thead>
 <th>ID</th>
 <th>Name</th>
@@ -97,7 +97,7 @@ include 'includes/header.php';
 <th>Balance</th>
 </thead>
 <tbody>
-<tr>
+<tr style="color: #FFFF00; ">
 <td><?php echo $row['id'] ?></td>
 <td><?php echo $row['name'] ?></td>
 <td><?php echo $row['email'] ?></td>
@@ -106,7 +106,7 @@ include 'includes/header.php';
 </tbody>
 </table>
 <br><br>
-<label>Transfer To:</label>
+<label style="color: #FFFF00; ">Transfer To:</label>
 <select name="to" class="form-control" required>
 <option value="" disabled selected>Choose</option>
 <?php
@@ -125,11 +125,11 @@ while($row = mysqli_fetch_assoc($select_query)) {
 </select>
 <br>
 <br>
-<label>Amount:</label>
+<label style="color: #FFFF00; ">Amount:</label>
 <input type="number" class="form-control" name="amount" required>   
 <br><br>
 <div class="text-center" >
-<button class="btn btn-success" name="submit" type="submit">Transfer</button>
+<button class="btn btn-danger" name="submit" type="submit">Transfer</button>
 </form>
 </div>
 </div>
